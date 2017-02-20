@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <body>
-
-<p>First name:<input type= "text" id="first"> </p>
-<p>Last name:<input type= "text" id="last"></p>
+<!--User enters the first name and last name and get full name by clicking on Get name button-->
+<p>First Name:<input type= "text" id="first"> </p>
+<p>Last Name:<input type= "text" id="last"></p>
 <button onclick="getName()">Get Name</button>
 <p id="fullName"></p>
-
+<!--function to get fullname-->
 <script>
 function getName() {
  fullName.innerHTML =
@@ -15,4 +15,4 @@ function getName() {
 </script>
 </body>
 </html> 
-</html>
+
